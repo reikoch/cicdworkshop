@@ -25,6 +25,7 @@ format:
     link-external-newwindow: true
 ---
 
+
 ```{r}
 render_file <- function(filepath, language = "yaml") {
   cat(paste0("```", language, "\n"))
